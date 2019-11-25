@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="/public/img/world.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/35e2aa62f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+        integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!--BOOTSTRAP -->
+     <!--<link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+
+    <!--CSS -->
+    <link style="center" rel="stylesheet" href="/public/css/style.css">
+    <title>Carmen Advance</title>
+
+
+
+</head>
+
+<body>
+
+    <!-- <nav class="navbar navbar-dark bg-dark"> -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="/public/img/imgshare-logo.png" alt="logo">
+            </a>
+        </div>
+    </nav>
+    <br>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <h3 style="text-align:center">Nosotros somos Carmen Advance.</h3>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-8">
+                {{{ body }}}
+            </div>
+            <div class="col-md-4">
+                {{> stats}}
+                {{> popular}}
+                {{> comments}}
+            </div>
+        </div>
+
+    </div>
+
+    <!--SCRITP-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!--CUSTOM CODE-->
+    <script src="/public/js/script.js"></script>
+</body>
+
+</html>
